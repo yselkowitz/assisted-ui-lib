@@ -25,7 +25,7 @@ const ProxyFields: React.FC = () => {
     }
   };
 
-  // https://docs.openshift.com/container-platform/4.6/networking/enable-cluster-wide-proxy.html
+  // https://access.redhat.com/documentation/en-us/openshift_container_platform/4.9/html/networking/enable-cluster-wide-proxy
   return (
     <>
       <CheckboxField

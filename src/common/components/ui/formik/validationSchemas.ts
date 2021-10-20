@@ -309,7 +309,7 @@ export const noProxyValidationSchema = Yup.string().test(
       return true;
     }
 
-    // https://docs.openshift.com/container-platform/4.5/installing/installing_bare_metal/installing-restricted-networks-bare-metal.html#installation-configure-proxy_installing-restricted-networks-bare-metal
+    // https://access.redhat.com/documentation/en-us/openshift_container_platform/4.9/html/installing/installing-on-bare-metal#installing-restricted-networks-bare-metal
     // A comma-separated list of destination domain names, domains, IP addresses or other network CIDRs
     // to exclude proxying. Preface a domain with . to include all subdomains of that domain.
     // Use * to bypass proxy for all destinations."

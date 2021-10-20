@@ -6,7 +6,7 @@ import { Cluster, ClusterValidationId, DiskRole, Event, Host, HostValidationId }
 export const OPENSHIFT_LIFE_CYCLE_DATES_LINK =
   'https://access.redhat.com/support/policy/updates/openshift#dates';
 export const OPENSHIFT_NETWORKING_DOCS_LINK =
-  'https://docs.openshift.com/container-platform/4.7/installing/installing_bare_metal/installing-bare-metal.html#installation-network-user-infra_installing-bare-metal';
+  'https://access.redhat.com/documentation/en-us/openshift_container_platform/4.9/html/installing/installing-on-bare-metal#installation-network-connectivity-user-infra_installing-bare-metal';
 export const CLUSTER_MANAGER_SITE_LINK = 'https://cloud.redhat.com/openshift/install/pull-secret';
 export const PULL_SECRET_INFO_LINK = CLUSTER_MANAGER_SITE_LINK;
 
